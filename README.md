@@ -4,7 +4,7 @@ A comprehensive exploratory data analysis exploring climate patterns and environ
 
 ## Overview
 
-This Jupyter notebook performs an in-depth analysis of climate and environmental data specific to Singapore. It examines temperature patterns, humidity, rainfall trends, emission profiles, and correlations between climate variables over time.
+This Jupyter notebook performs a breif analysis of climate and environmental data specific to Singapore. It examines temperature patterns, humidity, rainfall trends, emission profiles, and correlations between climate variables over time to study the impact of global warming.
 
 ## Data source
 
@@ -13,11 +13,17 @@ This Jupyter notebook performs an in-depth analysis of climate and environmental
 
 ## Dataset Contents
 
-- **Humidity**: Humidity patterns over time
-- **Rainfall**: Precipitation data and dry month frequency
-- **Gas Emissions**: Breakdown of emissions by gas type (CO₂, CH₄, N₂O, etc.)
-- **Emission Sources**: Sector-based emission analysis
-- **Projections**: Future climate model projections
+- temp_mean_daily_max: monthly average of daily maximum temperature
+- temp_mean_daily_min: monthly average of daily minimum temperature
+- mean_rh: monthly average relative humidity
+- total_rainfall: total monthly rainfall in mm
+- no_of_rainy_days: number of days with rain each month
+- SSP1-1.9: projection under sustainable development
+- SSP1-2.6: projection under current developments
+- SSP2-4.5: projection under high inequality
+- SSP3-7.0: projection under regional rivalry
+- SSP5-8.5: projection under heavy fossil fuel development
+  
 
 ## Requirements
 
